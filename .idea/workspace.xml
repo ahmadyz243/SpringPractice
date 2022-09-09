@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="933063f1-f8f5-45a5-84f9-682de093dc89" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PrintableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PrintableFactory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advisor/AfterAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advisor/AroundAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advisor/BeforeAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/advisor/ThrowAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/F.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logic/E.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/logic/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2EFhH9lbNycXtKDp39PsEQONIKM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e0acccdb037a0a21964a164444dade6a&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="933063f1-f8f5-45a5-84f9-682de093dc89" name="Changes" comment="" />
+      <created>1662197181860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662197181860</updated>
+      <workItem from="1662197186296" duration="4376000" />
+      <workItem from="1662206831742" duration="2762000" />
+      <workItem from="1662365020554" duration="7658000" />
+      <workItem from="1662440899076" duration="903000" />
+      <workItem from="1662451228954" duration="4398000" />
+      <workItem from="1662538105564" duration="6380000" />
+      <workItem from="1662715896593" duration="3152000" />
+      <workItem from="1662746949110" duration="293000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

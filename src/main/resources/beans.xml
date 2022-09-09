@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="addressBean" class="domain.Address">
+        <constructor-arg value="fallah ooshakhlary"/>
+    </bean>
+
+    <bean id="sAddress" class="domain.Address">
+        <constructor-arg value="Jalili"/>
+    </bean>
+
+    <bean name="student" id="studentBean" class="domain.Student">
+        <property name="name" value="ahmad"/>
+        <property name="lastName">
+            <value>yazdi</value>
+        </property>
+        <property name="schoolAddress" ref="sAddress"/>
+        <constructor-arg ref="addressBean"/>
+        <constructor-arg>
+            <list>
+                <value>abbas</value>
+                <value>zahra</value>
+                <value>bahram</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="s2" class="domain.Student" parent="studentBean"/>
+
+    <!-- auto wiring byName and byType & constructor -->
+    <!--    <bean id="b" class="domain.B"/>-->
+    <!--    <bean id="a" class="domain.A" autowire="byName"/>-->
+    <bean id="b1" class="domain.B"/>
+    <bean id="a" class="domain.A" autowire="byType"/>
+
+    <!--  A static factory method that returns instance of its own class -->
+    <bean id="c" class="domain.C" factory-method="getC"/>
+    <!-- A static factory method that returns instance of another class -->
+    <bean id="p" class="PrintableFactory" factory-method="getPrintable"/>
+    <!-- A non-static factory method that returns instance of another class. -->
+    <bean id="pFactory" class="PrintableFactory2"/>
+    <bean id="p2" factory-method="getPrintable" factory-bean="pFactory"/>
+
+    <!-- 3 beans needed for AOP simple MethodBeforeAdvice & AfterReturningAdvice & MethodInterceptor -->
+    <bean id="e" class="logic.E"/>
+    <bean id="bfr" class="advisor.BeforeAdvisor"/>
+    <bean id="afr" class="advisor.AfterAdvisor"/>
+    <bean id="around" class="advisor.AroundAdvisor"/>
+    <bean id="proxy" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="e"/>
+        <property name="interceptorNames">
+            <list>
+                <value>bfr</value>
+                <value>afr</value>
+                <value>around</value>
+            </list>
+        </property>
+    </bean>
+    <!-- 3 beans needed for AOP simple ThrowAdvice -->
+    <bean id="validator" class="logic.Validator"/>
+    <bean id="th" class="advisor.ThrowAdvisor"/>
+    <bean id="proxy2" class="org.springframework.aop.framework.ProxyFactoryBean">
+        <property name="target" ref="validator"/>
+        <property name="interceptorNames">
+            <list>
+                <value>th</value>
+            </list>
+        </property>
+    </bean>
+
+</beans>
