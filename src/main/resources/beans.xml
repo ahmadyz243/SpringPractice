@@ -70,4 +70,11 @@
         </property>
     </bean>
 
+    <!-- BeforeAdvice & joinPoint & pointcut example using annotation -->
+    <bean id="opBean" class="logic.Operation"/>
+    <bean id="trackOperation" class="advisor.TrackOperation"/>
+    <bean class="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator"/>
+
+
+
 </beans>

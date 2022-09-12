@@ -3,6 +3,7 @@ import domain.C;
 import domain.Student;
 import interfaces.Printable;
 import logic.E;
+import logic.Operation;
 import logic.Validator;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.xml.XmlBeanFactory;
@@ -51,5 +52,14 @@ public class Test {
         }catch (Exception exception){
             exception.printStackTrace();
         }
+
+        System.out.println("----------");
+        //BeforeAdvice & joinPoint & pointcut example using annotation
+        Operation operation = context.getBean("opBean", Operation.class);
+        operation.msg();
+        operation.m();
+        operation.k();
+
+
     }
 }
