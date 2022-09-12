@@ -4,32 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="933063f1-f8f5-45a5-84f9-682de093dc89" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PrintableFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PrintableFactory2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advisor/AfterAdvisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advisor/AroundAdvisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advisor/BeforeAdvisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/advisor/ThrowAdvisor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Printable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logic/E.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logic/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+    <list default="true" id="933063f1-f8f5-45a5-84f9-682de093dc89" name="Changes" comment="injections-factory methods- auto wiring- AOP">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +65,17 @@
       <workItem from="1662451228954" duration="4398000" />
       <workItem from="1662538105564" duration="6380000" />
       <workItem from="1662715896593" duration="3152000" />
-      <workItem from="1662746949110" duration="293000" />
+      <workItem from="1662746949110" duration="534000" />
+      <workItem from="1662970620781" duration="592000" />
     </task>
+    <task id="LOCAL-00001" summary="injections-factory methods- auto wiring- AOP">
+      <created>1662747433371</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662747433371</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +91,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="injections-factory methods- auto wiring- AOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="injections-factory methods- auto wiring- AOP" />
   </component>
 </project>
