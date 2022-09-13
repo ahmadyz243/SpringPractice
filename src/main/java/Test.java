@@ -54,12 +54,10 @@ public class Test {
         }
 
         System.out.println("----------");
-        //BeforeAdvice & joinPoint & pointcut example using annotation
+        //BeforeAdvice & AfterReturningAdvice & joinPoint & pointcut example using annotation
         Operation operation = context.getBean("opBean", Operation.class);
         operation.msg();
         operation.m();
         operation.k();
-
-
     }
 }

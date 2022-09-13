@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="933063f1-f8f5-45a5-84f9-682de093dc89" name="Changes" comment="injections-factory methods- auto wiring- AOP">
-      <change afterPath="$PROJECT_DIR$/src/main/java/advisor/TrackOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/logic/Operation.java" afterDir="false" />
+    <list default="true" id="933063f1-f8f5-45a5-84f9-682de093dc89" name="Changes" comment="BeforeAdvice &amp; joinPoint &amp; pointcut example using annotation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advisor/TrackOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/advisor/TrackOperation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +36,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;e0acccdb037a0a21964a164444dade6a&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Rayan system/Desktop/java/java spring simple/JavaSpringSimple",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "spring.configuration.checksum": "e0acccdb037a0a21964a164444dade6a"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +69,9 @@
       <workItem from="1662538105564" duration="6380000" />
       <workItem from="1662715896593" duration="3152000" />
       <workItem from="1662746949110" duration="534000" />
-      <workItem from="1662970620781" duration="7413000" />
+      <workItem from="1662970620781" duration="7895000" />
+      <workItem from="1663007494102" duration="156000" />
+      <workItem from="1663051618356" duration="1530000" />
     </task>
     <task id="LOCAL-00001" summary="injections-factory methods- auto wiring- AOP">
       <created>1662747433371</created>
@@ -87,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662972010739</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="BeforeAdvice &amp; joinPoint &amp; pointcut example using annotation">
+      <created>1662986282399</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662986282522</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="injections-factory methods- auto wiring- AOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="injections-factory methods- auto wiring- AOP" />
+    <MESSAGE value="BeforeAdvice &amp; joinPoint &amp; pointcut example using annotation" />
+    <option name="LAST_COMMIT_MESSAGE" value="BeforeAdvice &amp; joinPoint &amp; pointcut example using annotation" />
   </component>
 </project>
